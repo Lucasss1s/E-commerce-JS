@@ -9,7 +9,7 @@ function cargarCarrito() {
         CARD_ELEMENT.classList.add("cart-card");
 
         CARD_ELEMENT.innerHTML = `
-            <img src="${producto.imagen}" alt="Imagen del producto" class="cart-card-img">
+            <img src="../${producto.imagen}" alt="Imagen del producto" class="cart-card-img">
             <div class="cart-card-content">
                 <h2 class="cart-card-title">${producto.titulo}</h2>
                 <p class="cart-card-description">${producto.descripcion}</p>
